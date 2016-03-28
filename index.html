@@ -1,0 +1,79 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+  
+  	<noscript>	
+    	<h2>Attention</h2>
+        <h2>JavaScript on your browser has been disabled</h2>	
+    	<p>Please enable JavaScript to view contents properly. Thank you.</p>
+    </noscript>
+    <!--end Disable JS message-->
+    
+    <header id="mainHeader" class="row">
+    	<h2 class="hide">Main Header</h2>
+        
+        <div class="columns">
+        </div>
+        
+        <nav id="deskNav" class="row hide-for-small-only">
+        	<h2 class="hide">Desktop Navigation</h2>
+            <ul>
+            	<li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav><!--end deskNav-->
+        
+        
+        <div id="mobileNav" class="row collapse hide-for-medium-up" ><!--Start Mobile Nav-->
+            	<div class="small-12 columns hide-for-medium-up">
+                    <nav class="top-bar" data-topbar>
+                    <h2 class="hide">Mobile Navigation</h2>
+                      <ul class="title-area">
+                        <li class="name">
+                        </li>
+                         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+                      </ul>
+                      
+                      <ul id="mobileNavLinks">
+                      	<li><a href="index.html">Home</a></li>
+                      	<li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                    
+                    </nav>
+                 </div>
+    	</div><!--end mobileNav-->
+    
+    </header><!--end mainHeader-->
+    
+    <section id="midCont" class="row">
+    	<h2 class="hide">Middle Container</h2>
+        <div class="columns">
+        </div>
+    </section><!--end middleCont-->
+    
+    <footer id="mainFooter" class="row">
+    	<h2 class="hide">Main Footer</h2>
+        <div class="columns">
+        </div>
+    </footer><!--end mainFooter-->
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
